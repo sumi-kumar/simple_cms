@@ -12,4 +12,14 @@
 <%= n %> <br/>
 <% end %>
 
+<a href="/demo/index">Index page 1</a><br/>
+<%= link_to('Index page 2', {:action => 'index'}) %><br/>
+
+ID: <%= params[:id]%><br/>
+ID: <%= @id %><br/>
+Next page: <%= @page + 1 %><br/>
+
+<hr/>
+<%= params.inspect %>
+
 
