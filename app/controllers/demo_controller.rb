@@ -6,7 +6,8 @@ class DemoController < ApplicationController
   end
 
   def hello
-  	render('index')
+  	#render('index')
+  	@array = [1,2,3,4,5]
   end
   	
   def other_hello
